@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E244281C2C38A5B7001234B4 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E244281B2C38A5B7001234B4 /* ScannerViewModel.swift */; };
 		E27D7AB72C385F310061B75D /* Barcode_SannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D7AB62C385F310061B75D /* Barcode_SannerApp.swift */; };
-		E27D7AB92C385F310061B75D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D7AB82C385F310061B75D /* ContentView.swift */; };
+		E27D7AB92C385F310061B75D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D7AB82C385F310061B75D /* MainView.swift */; };
 		E27D7ABB2C385F320061B75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27D7ABA2C385F320061B75D /* Assets.xcassets */; };
 		E27D7ABE2C385F320061B75D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27D7ABD2C385F320061B75D /* Preview Assets.xcassets */; };
+		E27D7AC62C3878FE0061B75D /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D7AC52C3878FE0061B75D /* ScannerVC.swift */; };
+		E27D7AC82C3880400061B75D /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D7AC72C3880400061B75D /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E244281B2C38A5B7001234B4 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
 		E27D7AB32C385F310061B75D /* Barcode Sanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcode Sanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27D7AB62C385F310061B75D /* Barcode_SannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode_SannerApp.swift; sourceTree = "<group>"; };
-		E27D7AB82C385F310061B75D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E27D7AB82C385F310061B75D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E27D7ABA2C385F320061B75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E27D7ABD2C385F320061B75D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E27D7AC52C3878FE0061B75D /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		E27D7AC72C3880400061B75D /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				E27D7AB62C385F310061B75D /* Barcode_SannerApp.swift */,
-				E27D7AB82C385F310061B75D /* ContentView.swift */,
+				E27D7AB82C385F310061B75D /* MainView.swift */,
+				E27D7AC52C3878FE0061B75D /* ScannerVC.swift */,
+				E27D7AC72C3880400061B75D /* ScannerView.swift */,
 				E27D7ABA2C385F320061B75D /* Assets.xcassets */,
 				E27D7ABC2C385F320061B75D /* Preview Content */,
+				E244281B2C38A5B7001234B4 /* ScannerViewModel.swift */,
 			);
 			path = "Barcode Sanner";
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E27D7AB92C385F310061B75D /* ContentView.swift in Sources */,
+				E244281C2C38A5B7001234B4 /* ScannerViewModel.swift in Sources */,
+				E27D7AC62C3878FE0061B75D /* ScannerVC.swift in Sources */,
+				E27D7AC82C3880400061B75D /* ScannerView.swift in Sources */,
+				E27D7AB92C385F310061B75D /* MainView.swift in Sources */,
 				E27D7AB72C385F310061B75D /* Barcode_SannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -269,12 +281,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Barcode Sanner/Preview Content\"";
 				DEVELOPMENT_TEAM = 7P8Y78RF8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan the barcode";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,6 +301,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Bob-s-Fun-Room.Barcode-Sanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +313,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Barcode Sanner/Preview Content\"";
 				DEVELOPMENT_TEAM = 7P8Y78RF8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan the barcode";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +333,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Bob-s-Fun-Room.Barcode-Sanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

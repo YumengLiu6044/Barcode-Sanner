@@ -11,7 +11,7 @@ import SwiftUI
 struct Barcode_SannerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
