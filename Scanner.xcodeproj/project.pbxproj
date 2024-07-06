@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		E244281B2C38A5B7001234B4 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
-		E27D7AB32C385F310061B75D /* Barcode Sanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcode Sanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27D7AB32C385F310061B75D /* Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27D7AB62C385F310061B75D /* Barcode_SannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode_SannerApp.swift; sourceTree = "<group>"; };
 		E27D7AB82C385F310061B75D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E27D7ABA2C385F320061B75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		E27D7AB42C385F310061B75D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E27D7AB32C385F310061B75D /* Barcode Sanner.app */,
+				E27D7AB32C385F310061B75D /* Scanner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E27D7AB22C385F310061B75D /* Barcode Sanner */ = {
+		E27D7AB22C385F310061B75D /* Scanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E27D7AC12C385F320061B75D /* Build configuration list for PBXNativeTarget "Barcode Sanner" */;
+			buildConfigurationList = E27D7AC12C385F320061B75D /* Build configuration list for PBXNativeTarget "Scanner" */;
 			buildPhases = (
 				E27D7AAF2C385F310061B75D /* Sources */,
 				E27D7AB02C385F310061B75D /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "Barcode Sanner";
+			name = Scanner;
 			productName = "Barcode Sanner";
-			productReference = E27D7AB32C385F310061B75D /* Barcode Sanner.app */;
+			productReference = E27D7AB32C385F310061B75D /* Scanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E27D7AAE2C385F310061B75D /* Build configuration list for PBXProject "Barcode Sanner" */;
+			buildConfigurationList = E27D7AAE2C385F310061B75D /* Build configuration list for PBXProject "Scanner" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E27D7AB22C385F310061B75D /* Barcode Sanner */,
+				E27D7AB22C385F310061B75D /* Scanner */,
 			);
 		};
 /* End PBXProject section */
@@ -347,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E27D7AAE2C385F310061B75D /* Build configuration list for PBXProject "Barcode Sanner" */ = {
+		E27D7AAE2C385F310061B75D /* Build configuration list for PBXProject "Scanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E27D7ABF2C385F320061B75D /* Debug */,
@@ -356,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E27D7AC12C385F320061B75D /* Build configuration list for PBXNativeTarget "Barcode Sanner" */ = {
+		E27D7AC12C385F320061B75D /* Build configuration list for PBXNativeTarget "Scanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E27D7AC22C385F320061B75D /* Debug */,
