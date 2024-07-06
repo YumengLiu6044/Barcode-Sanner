@@ -10,6 +10,7 @@ import SwiftUI
 
 final class ScannerViewModel: ObservableObject {
     @Published var barcodeValue = ""
+    @Published var showSafari   = false
     
     var statusText: String {
         barcodeValue.isEmpty ? "Not Yet Found" : barcodeValue
@@ -17,6 +18,15 @@ final class ScannerViewModel: ObservableObject {
     
     var statusTextColor: Color {
         barcodeValue.isEmpty ? Color.red : Color.green
+    }
+    
+    func handleTap() {
+        if let _ = URL(string: barcodeValue) {
+                showSafari = true
+        }
+            
+        
+        
     }
     
 }

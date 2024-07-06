@@ -6,10 +6,10 @@
 //
 
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct MainView: View {
     @StateObject var scannerViewModel = ScannerViewModel()
-    
     
     var body: some View {
         NavigationStack {
@@ -31,10 +31,16 @@ struct MainView: View {
                     .padding()
                     .transition(.blurReplace())
                     .animation(.easeIn, value: scannerViewModel.statusText)
+                    .onTapGesture {
+                        scannerViewModel.handleTap()
+                    }
                 
             }
             .navigationTitle("Barcode Scanner")
             .padding()
+            .sheet(isPresented: $scannerViewModel.showSafari, content: {
+                SafariView(url: URL(string: scannerViewModel.statusText)!)
+            })
             
         }
     }

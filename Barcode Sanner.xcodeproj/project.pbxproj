@@ -14,6 +14,7 @@
 		E27D7ABE2C385F320061B75D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27D7ABD2C385F320061B75D /* Preview Assets.xcassets */; };
 		E27D7AC62C3878FE0061B75D /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D7AC52C3878FE0061B75D /* ScannerVC.swift */; };
 		E27D7AC82C3880400061B75D /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D7AC72C3880400061B75D /* ScannerView.swift */; };
+		E2C2DA452C3A046E00F222AB /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C2DA442C3A046E00F222AB /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E27D7ABD2C385F320061B75D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E27D7AC52C3878FE0061B75D /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 		E27D7AC72C3880400061B75D /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		E2C2DA442C3A046E00F222AB /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				E27D7ABA2C385F320061B75D /* Assets.xcassets */,
 				E27D7ABC2C385F320061B75D /* Preview Content */,
 				E244281B2C38A5B7001234B4 /* ScannerViewModel.swift */,
+				E2C2DA442C3A046E00F222AB /* SafariView.swift */,
 			);
 			path = "Barcode Sanner";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				E27D7AC62C3878FE0061B75D /* ScannerVC.swift in Sources */,
 				E27D7AC82C3880400061B75D /* ScannerView.swift in Sources */,
 				E27D7AB92C385F310061B75D /* MainView.swift in Sources */,
+				E2C2DA452C3A046E00F222AB /* SafariView.swift in Sources */,
 				E27D7AB72C385F310061B75D /* Barcode_SannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
