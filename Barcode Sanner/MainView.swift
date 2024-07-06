@@ -18,7 +18,7 @@ struct MainView: View {
                     .frame(maxWidth: .infinity)
                     .clipShape(.rect(cornerRadius: 10))
                 
-                Label("Scanned Barcode:", systemImage: "barcode.viewfinder")
+                Label("Scan Result:", systemImage: "barcode.viewfinder")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     .padding()
                 
@@ -36,7 +36,7 @@ struct MainView: View {
                     }
                 
             }
-            .navigationTitle("Barcode Scanner")
+            .navigationTitle("Scanner")
             .padding()
             .sheet(isPresented: $scannerViewModel.showSafari, content: {
                 SafariView(url: URL(string: scannerViewModel.statusText)!)
