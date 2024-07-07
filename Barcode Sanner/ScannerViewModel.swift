@@ -21,13 +21,11 @@ final class ScannerViewModel: ObservableObject {
     }
     
     func handleTap() {
-        if let url = URL(string: barcodeValue) {
-            if url.absoluteString.hasPrefix("http://") || url.absoluteString.hasSuffix("https://") {
+        if barcodeValue.hasPrefix("http://") || barcodeValue.hasPrefix("https://") {
+                print("Has those prefix")
                 showSafari = true
             }
-            
-        }
-            
+        
         
         
     }
